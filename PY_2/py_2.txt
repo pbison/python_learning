@@ -1,0 +1,40 @@
+字符串讲解：
+1. 字符串的下标操作
+ 字符串是不可变的 ，和元组一样
+ 
+
+2. 格式化
+
+ % format
+3. 常用的操作
+ join
+ split rsplit splitlines(Ture) parttion -> (head,sep,tail)
+ tiltle lower upper swapcase capitalize 
+ center ljust  rjust strip lstrip rstrip 
+ startswith endswith is*
+ count find rfind index rindex replace 
+ 
+函数：
+ def add(x,y):
+ 位置参数： 按照位置
+ 关键字参数：add(y=2,x=1)
+ 规定：关键字参数必须在位置参数之后
+ 默认参数：
+   默认参数放到非默认参数之后
+   inc(x, i=1):
+   默认参数 +　关键在参数 pymysql
+   
+ 可变参数：
+  可变位置参数：
+   def sum(*args): 对应的元组
+     r = 0
+     for i in arge:
+       r += x
+     return r
+  可变关键字参数：
+    fun(**)： 对应的是字典
+  参数解包：
+    
+     
+   
+ 

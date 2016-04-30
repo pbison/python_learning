@@ -1,0 +1,123 @@
+# python 基础
+
+
+pyenv virtun 
+
+ 2和3:  / // 区别
+ id 
+ 
+ 变量 运算符 表达式
+ 
+ a if a > 0 else 0 
+ 
+ if a > 0:
+   return a;
+  else:
+   return 0;
+   
+ 优先级：
+  1 元 高于 2 元
+  数值高于逻辑
+  算术高于位
+  必要时加括号区别优先级
+  
+ 
+ 程序结构：
+  顺序
+  分支
+   if condition:
+     block
+   else:
+     block
+  循环
+   while
+   for 不要修改迭代器本身
+  
+ ： 开始一个块
+ 使用缩进，标准使用 4 个空格
+ function map 
+  
+  
+  range函数 
+  
+  break continue
+  
+  
+  for...else...
+   即在for 循环中，如果没有从任何一个break中退出，则会执行和for对应的else
+   只要从break中退出了，则else部分不执行。
+   
+   
+
+
+内置容器：
+   列表：list []
+    动作： 
+       增加： append extend insert
+       删除： remove pop clear 
+       改： sort reverse（l1[::-1]）
+       查： count index
+       other: copy
+    元组：tupple
+      不可变的list ()
+       查： count index
+    集合：set {}
+      元素唯一 可 Hash 
+      增： update add 
+      删： discard(删除不存在的元素没有异常) remove clear pop
+      集合运算： 交intersection  并union 查：diffencence 
+      集合判断： issubset 等
+    字典：dict {}
+      {'a':1,'b':2}
+      key式唯一的，通过下标操作
+      
+      定义： {}  {'a':1,'b':2}  dict()
+      
+      
+      
+      
+      keys valuses iteam 遍历
+      删：pop popiteam
+      get
+      
+      
+    
+     
+
+下标操作：
+   读取和切片
+   l1[1]
+
+  切片： 返回新的list
+  
+  
+  
+  l1[:]
+  l1[4:-2]
+  l1[2:6:2]
+         步长
+
+
+PACKING 和 UNPACKING
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
